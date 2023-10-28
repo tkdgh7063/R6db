@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 100vw;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main img {
+  width: 1000px;
+  height: 560px;
+}
+
+.header {
+  color: white;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header button {
+  background-color: purple;
+  color: white;
+  border-style: none;
+}
+
+.navigator {
+  position: fixed;
+  background-color: purple;
+  color: white;
+  width: 125px;
+  height: 95px;
+  display: flex;
+  justify-content: space-around;
+  bottom: 5%;
+}
+
+.navigator ul {
+  padding: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.operator__container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  padding: 0 80px;
+}
+
+.operator__operator {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.operator__operator > a > div {
+  margin-right: 20px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.operator__operator > a > div > img:nth-child(2) {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  bottom: 42px;
+  left: 25px;
+}
+
+/* .operator__button {
+  position: absolute;
+  right: 0;
+} */
+
+.operator-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.operator-detail__image {
+  height: 350px;
+}
+
+.operator-detail__icon {
+  height: 60px;
+}
+
+.operator-detail-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.operator-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.operator-form > div > div {
+  margin-top: 15px;
+}
+
+.map__container {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.map__map {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.map__map > a > div {
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.map-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map-detail__img {
+  height: 460px;
+}
+
+.map-detail-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map-form > label {
+  margin-bottom: 10px;
+}
+
+.map-form > div > label:first-child {
+  text-align: center;
+}
+
+.map-form > div {
+  margin-bottom: 20px;
+}
+
+.map-form > div > div {
+  margin-bottom: 10px;
+}
+
+.map__spawn,
+.map__site {
+  display: flex;
+  flex-direction: column;
+}
+
+.map__spawn > div:nth-child(2) {
+  margin-top: 7px;
+}
+
+.weapon__container {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.weapon__weapon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.weapon__weapon > a > div {
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.weapon-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weapon-detail__img {
+  height: 110px;
+}
+
+.weapon-detail-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weapon-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weapon-form > div > label:first-child {
+  text-align: center;
+}
+
+.weapon-form > div > div {
+  margin-bottom: 10px;
+}
+
+.weapon-form > div > div:nth-child(2) {
+  margin-top: 10px;
+}
+
+.weapon-detail-information ul:last-child img {
+  width: 60px;
+}
